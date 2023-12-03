@@ -3,9 +3,33 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34003.232
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{B45DEAFD-3454-48CA-AAC5-25791B5CDC49}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExportingService.Domain", "src\ExportingService.Domain\ExportingService.Domain.csproj", "{0A718324-D02E-4074-A121-9AC675656D55}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExportingService.Application", "src\ExportingService.Application\ExportingService.Application.csproj", "{A49E84BB-7624-4B26-AA20-856627C19066}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0A718324-D02E-4074-A121-9AC675656D55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A718324-D02E-4074-A121-9AC675656D55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A718324-D02E-4074-A121-9AC675656D55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A718324-D02E-4074-A121-9AC675656D55}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A49E84BB-7624-4B26-AA20-856627C19066}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A49E84BB-7624-4B26-AA20-856627C19066}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A49E84BB-7624-4B26-AA20-856627C19066}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A49E84BB-7624-4B26-AA20-856627C19066}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0A718324-D02E-4074-A121-9AC675656D55} = {B45DEAFD-3454-48CA-AAC5-25791B5CDC49}
+		{A49E84BB-7624-4B26-AA20-856627C19066} = {B45DEAFD-3454-48CA-AAC5-25791B5CDC49}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {CB664A35-F189-45F0-8FD4-620E8092DA21}
